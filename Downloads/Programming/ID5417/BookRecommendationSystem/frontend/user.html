@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User - Book Recommendation System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>User Interface</h1>
+    <form id="bookForm">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" required>
+        <button type="submit">Submit Recommendation</button>
+    </form>
+    <h2>Your Recommendations</h2>
+    <ul id="userRecommendations"></ul>
+    <h2>Approved Recommendations</h2>
+    <ul id="approvedList"></ul>
+    <button id="logoutButton">Logout</button>
+
+    <script src="js/user.js"></script>
+</body>
+</html>
